@@ -1,0 +1,100 @@
+header {
+  background-color: rgb(129, 154, 120);
+  height: 100px;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #daad86;
+}
+.header {
+  background-color: rgb(129, 154, 120);
+  height: 100px;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #daad86;
+}
+
+body {
+  background-color: rgb(255, 239, 224);
+}
+
+.links {
+  font-family: cursive;
+  color: black;
+  justify-content: right;
+  display: flex;
+  padding: 5px 10px;
+}
+th {
+  font-family: cursive;
+  font-weight: bol;
+  font-size: 45px;
+  justify-content: center;
+  padding: 0px 100px;
+  margin: 0px 50px;
+  text-align: center;
+}
+.form-group {
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: right;
+  padding: 0px 300px;
+  margin: 20px 50px;
+}
+.btn {
+color: #daad86;
+font-family: cursive;
+background-color: rgb(129, 154, 120);
+margin: 0px 950px;
+width: 140px;
+border-radius: 6px;
+font-weight: bolder;
+box-shadow: 2px 2px;
+}
+.instructions {
+  color: black;
+  font-family: cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: right;
+  padding: 0px 300px;
+  margin: 20px 50px;
+}
+td {
+  font-family: cursive;
+  font-size: 35px;
+  padding: 0px 120px;
+  margin: 0px 60px;
+  font-weight: bolder;
+}
+.button {
+  border-radius: 6px;
+  font-family: cursive;
+  background-color: rgb(129, 154, 120);
+  box-shadow: 2px 2px;
+  font-weight: bolder;
+  color: #f2e7dd;
+}
+.input {
+  color: black;
+  font-family: cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: right;
+  padding: 0px 140px;
+  margin: 20px 50px;
+}
+.delete-btn {
+  color: #daad86;
+font-family: cursive;
+background-color: rgb(129, 154, 120);
+margin: 10px 950px;
+width: 140px;
+border-radius: 6px;
+font-weight: bolder;
+box-shadow: 2px 2px;
+
+}
