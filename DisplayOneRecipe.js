@@ -36,13 +36,14 @@ const DisplayOneRecipe = () => {
     return (
         <div className="container">
             <header>{recipeName}</header>
-            <Link to="/" className="links">return to recipes</Link>
+            <Link to="/home" className="links">return to recipes</Link>
+            <Link to='/' className='links'>Signout</Link>
             <div className="form">
                 <div className="input">
                     <div><h3>Duration: {duration }</h3></div>
                 </div>
                 <div className="input">
-                    <div><h3>Ingrediants: {ingrediants} </h3></div>
+                    <div><h3>Ingredients: {ingrediants} </h3></div>
                 </div>
                 <div className="input">
                     <div><h3>Chef's name: {chefName}</h3></div>

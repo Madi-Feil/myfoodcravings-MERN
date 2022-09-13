@@ -62,7 +62,7 @@ const handleSubmit = (e) => {
     return (
         <div className="container">
             <header>Edit recipe: {recipeName}</header>
-            <Link to="/" className="links">return to recipes</Link>
+            <Link to="/home" className="links">return to recipes</Link>
             <form onSubmit={handleSubmit}>
                         <div className="form-group">
                             <label htmlFor="recipeName" className="edit">Recipe name: </label>

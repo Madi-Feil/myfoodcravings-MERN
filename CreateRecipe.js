@@ -20,7 +20,7 @@ const CreateRecipe = () => {
         { recipeName, chefNote, duration, ingrediants, instructions, chefName})
         .then((response) => {
             console.log(response);
-            navigate("/");
+            navigate("/home");
         })
         .catch((err) => {
             console.log(err.response.data.err.errors);
@@ -31,7 +31,7 @@ const CreateRecipe = () => {
          <div className="containter">
              <div className="row">
                  <header>Add your recipe</header>
-                 <Link to ="/" className="links">return to recipes</Link>
+                 <Link to ="/home" className="links">return to recipes</Link>
                  <form onSubmit={handleSubmit}>
                     <div className="container">
                         <div className="form-group">
@@ -45,7 +45,7 @@ const CreateRecipe = () => {
                             {errors.name ? <p>{errors.name.message}</p>: null}
                         </div>
                         <div className="form-group">
-                            <label htmlFor="ingrediants" className="edit">Ingrediants: </label>
+                            <label htmlFor="ingrediants" className="edit">Ingredients: </label>
                             <input type="text" className="form-input" onChange={(e) => setIngrediants(e.target.value)} value={ingrediants}/>
                             {errors.name ? <p>{errors.name.message}</p>: null}
                         </div>

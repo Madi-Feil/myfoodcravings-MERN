@@ -57,8 +57,8 @@ box-shadow: 2px 2px;
 .instructions {
   color: black;
   font-family: cursive;
-  font-weight: lighter;
-  font-size: 30px;
+  font-weight: bolder;
+  font-size: 35px;
   text-align: right;
   padding: 0px 300px;
   margin: 20px 50px;
@@ -96,5 +96,46 @@ width: 140px;
 border-radius: 6px;
 font-weight: bolder;
 box-shadow: 2px 2px;
-
+}
+.login-btn {
+  color: #daad86;
+  font-family: cursive;
+  background-color: rgb(129, 154, 120);
+  border-radius: 6px;
+  box-shadow: 2px 2px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.login {
+  background-color: rgb(255, 239, 224);
+  width: 50%;
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid black;
+}
+.registration {
+  background-color: rgb(255, 239, 224);
+  width: 50%;
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid black;
+}
+.register-btn {
+  color: #daad86;
+  font-family: cursive;
+  background-color: rgb(129, 154, 120);
+  border-radius: 6px;
+  box-shadow: 2px 2px;
+}
+.user-form {
+  display: flex;
+}
+.inputs {
+  font-family: cursive;
+  font-size: 35px;
+  font-weight: bolder;
+}
+h1 {
+  font-family: cursive;
+  font-size: 45px;
 }

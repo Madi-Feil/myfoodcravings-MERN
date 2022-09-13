@@ -11,3 +11,5 @@ app.listen(port, () => (`Listening to port: ${port}`));
 
 require('./config/mongoose.config');
 require('./routes/food.routes')(app);
+
+require('./routes/user.routes')(app);

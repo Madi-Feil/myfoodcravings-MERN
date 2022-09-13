@@ -21,7 +21,8 @@ const DisplayAllRecipes = () => {
         <div className="container">
             <div className="row">
                 <header>My Food Cravings</header>
-                <Link to="recipe/new" className="links">add your recipe</Link>
+                <Link to="/recipe/new" className="links">add your recipe</Link>
+                <Link to='/' className='links'>Signout</Link>
                 
                 <div className="table">
                     <thead>
